@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Play free on mobile - Spotify</title>
+    <style>
+        #navbar {
+            display: flex;
+            background-color: black;
+        }
+
+        #logo {
+            margin-left: 148px;
+            margin-top: 10px;
+        }
+
+        #go {
+            margin-left: 148px;
+            margin-top: 299px;
+        }
+
+        ul {
+            display: flex;
+            margin-top: -4px;
+            margin-left: 262px;
+        }
+
+        #teri {
+            display: block;
+            margin-top: 40px;
+            margin-left: 388px;
+        }
+
+        /* a.gap {
+            padding: 3px ;
+        } */
+
+        .ip {
+            list-style: none;
+            font-size: 25px;
+            padding: 33px;
+            color: white;
+        }
+
+        .op {
+            margin-left: 189px;
+            margin-top: 45px;
+        }
+
+        .dd {
+            margin-left: 679px;
+            margin-top: -457px;
+            font-size: 79px;
+        }
+
+        .rr {
+            margin-left: 771px;
+            border: 2px solid white;
+            background-color: white;
+            width: 332px;
+            border-radius: 16px;
+        }
+
+        .aa {
+            margin-left: 588px;
+            border: 2px solid white;
+            background-color: white;
+            width: 332px;
+            border-radius: 16px;
+        }
+
+        .qq {
+            color: black;
+            margin-top: 267px;
+            margin-left: 141px;
+            font-size: 24px;
+        }
+
+        .vv {
+            margin-left: 57px;
+        }
+
+        .zz {
+            margin-left: 30px;
+        }
+
+        #jk {
+            max-width: 24%;
+            height: auto;
+        }
+
+        #ll {
+            color: black;
+            margin-top: 300px;
+            font-size: 56px;
+            margin-left: 582px;
+        }
+
+        #ram {
+            margin-top: -108px;
+            margin-left: 492px;
+            font-size: 24px;
+        }
+
+        #rap {
+            margin-left: 801px;
+            font-size: 24px;
+            margin-top: -104px;
+        }
+
+        #pop {
+            margin-left: 1136px;
+            margin-top: -106px;
+            font-size: 24px;
+        }
+
+        #lop {
+            margin-left: 41px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+
+        }
+
+        .oo {
+            color: black;
+        }
+
+        .oo:hover {
+            background-color: white;
+        }
+
+        #oop {
+            margin-left: 56px;
+        }
+
+        #roop {
+            margin-left: 437px;
+            margin-top: 390px;
+            font-size: 77px;
+        }
+
+        #roo {
+            margin-left: 216px;
+        }
+
+        #tp {
+            margin-top: 352px;
+            margin-left: 600px;
+            font-size: 41px;
+        }
+
+        #woop {
+            font-size: 77px;
+            margin-left: 460px;
+        }
+
+        #heap {
+            margin-top: 239px;
+        }
+
+
+
+        header::after {
+            background: url('background.png')no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 115px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+        }
+
+        header2::after {
+            background: url('background.png')no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 1439px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+        }
+
+        header4::after {
+            background: url('background.png')no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 2774px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+        }
+
+        header5::after {
+            background: url('InkedInkedop_LI.jpg')no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 3375px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+        }
+
+        header1::after {
+            background: url('Untitled.png')no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 845px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+        }
+
+        #flip {
+            margin-left: 400px;
+            width: 10%;
+            height: 184px;
+        }
+        #lip {
+            margin-left: 573px;
+            width: 10%;
+            height: 298px;
+            margin-top: -201px;
+        }
+        #jeep {
+            margin-left: 754px;
+            width: 10%;
+            height: 298px;
+            margin-top: -313px;
+        }
+
+
+
+
+        html {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 4rem;
+            width: 48rem;
+            margin-top: 276px;
+        }
+
+        h3 {
+            font-size: 1.75rem;
+            color: #373d51;
+            padding: 1.3rem;
+            margin: 0;
+        }
+
+        .accordion a {
+            position: relative;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            width: 100%;
+            padding: 1rem 3rem 1rem 1rem;
+            color: #7288a2;
+            font-size: 2.15rem;
+            font-weight: 400;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .accordion a:hover,
+        .accordion a:hover::after {
+            cursor: pointer;
+            color: #ff5353;
+        }
+
+        .accordion a:hover::after {
+            border: 1px solid #ff5353;
+        }
+
+        .accordion a.active {
+            color: #ff5353;
+            border-bottom: 1px solid #ff5353;
+        }
+
+        .accordion a::after {
+            font-family: 'Ionicons';
+            content: '\f218';
+            position: absolute;
+            float: right;
+            right: 1rem;
+            font-size: 1rem;
+            color: #7288a2;
+            padding: 5px;
+            width: 30px;
+            height: 30px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            border: 1px solid #7288a2;
+            text-align: center;
+        }
+
+        .accordion a.active::after {
+            font-family: 'Ionicons';
+            content: '\f209';
+            color: #ff5353;
+            border: 1px solid #ff5353;
+        }
+
+        .accordion .content {
+            opacity: 0;
+            padding: 0 1rem;
+            max-height: 0;
+            border-bottom: 1px solid #e5e5e5;
+            overflow: hidden;
+            clear: both;
+            -webkit-transition: all 0.2s ease 0.15s;
+            -o-transition: all 0.2s ease 0.15s;
+            transition: all 0.2s ease 0.15s;
+        }
+
+        .accordion .content p {
+            font-size: 22px;
+            font-weight: 300;
+        }
+
+        .accordion .content.active {
+            opacity: 1;
+            padding: 1rem;
+            max-height: 100%;
+            -webkit-transition: all 0.35s ease 0.15s;
+            -o-transition: all 0.35s ease 0.15s;
+            transition: all 0.35s ease 0.15s
+        }
+
+        h2 {
+            margin-left: 192px;
+            font-size: 53px;
+        }
+
+        #push {
+            color: #919496;
+            margin-top: -63px;
+            margin-bottom: 33px;
+            margin-left: 33px;
+        }
+
+        .pap {
+            padding: 3px 0 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+
+        <div id="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <ul>
+            <li class="ip"><a href="https://www.spotify.com/in-en/premium/" target="_blank">Premium</a></li>
+            <li class="ip"><a
+                    href="https://support.spotify.com/in-en/?_gl=1*u7j96e*_gcl_aw*R0NMLjE2MjY3NjY5MTMuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0wZVpKYUV3V016WnI5clM2cGxIQnJ1Mkg3NDlZTWNlWE04U19HM19YWkdQYlo4SGhicUZYWWFBcEJBRUFMd193Y0I.*_gcl_dc*R0NMLjE2MjY3NjY5MTMuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0wZVpKYUV3V016WnI5clM2cGxIQnJ1Mkg3NDlZTWNlWE04U19HM19YWkdQYlo4SGhicUZYWWFBcEJBRUFMd193Y0I.&_ga=2.113988295.1175773860.1626517253-2010642392.1626517253&_gac=1.12456006.1626766914.Cj0KCQjw6NmHBhD2ARIsAI3hrM0eZJaEwWMzZr9rS6plHBru2H749YMceXM8S_G3_XZGPbZ8HhbqFXYaApBAEALw_wcB"
+                    target="_blank">Support</a></li>
+
+            <li class="ip"><a href="https://www.spotify.com/in-en/download/" target="_blank">Download</a></li>
+            <li role="separator" class="ip">|</li>
+            <li class="ip"><a href="https://www.spotify.com/in-en/signup/" target="_blank">Sign up</a></li>
+            <li class="ip"><a
+                    href="https://accounts.spotify.com/login/?continue=https%3A%2F%2Fopen.spotify.com%2F%3Fl2l%3D1&_gl=1*1ye3yvf*_gcl_aw*R0NMLjE2MjY3NzIwNjYuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0xcS1iakQ3SkhNMzZxU00xSm9TRnBlbURuQTdpQjVVVE1aMXJLX2FGYU5NTUs2SmhMQjVKd2FBdHNxRUFMd193Y0I.*_gcl_dc*R0NMLjE2MjY3NzIwNjYuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0xcS1iakQ3SkhNMzZxU00xSm9TRnBlbURuQTdpQjVVVE1aMXJLX2FGYU5NTUs2SmhMQjVKd2FBdHNxRUFMd193Y0I.&_ga=2.79765079.1175773860.1626517253-2010642392.1626517253&_gac=1.184539604.1626772066.Cj0KCQjw6NmHBhD2ARIsAI3hrM1q-bjD7JHM36qSM1JoSFpemDnA7iB5UTMZ1rK_aFaNMMK6JhLB5JwaAtsqEALw_wcB"
+                    target="_blank">Log in</a></li>
+        </ul>
+
+    </nav>
+    <header>
+        <div class="op">
+            <img id="jk" src="left.jpg" alt="">
+        </div>
+        <div>
+            <h1 class="dd">Play millions of songs
+                <br>
+                and podcasts, for free.
+            </h1>
+            <h1 class="rr"><a class="oo" href="https://www.spotify.com/in-en/signup/" target="_blank">GET SPOTIFY
+                    FREE</a></h1>
+        </div>
+    </header>
+    <header1>
+        <h1 id="ll">Why Spotify?</h1>
+        <p class="qq"><strong class="vv">Play your favorites.</strong>
+            <br>
+            Listen to the songs you love, and
+            <br>
+            discover new music and podcasts.
+        </p>
+        <p id="ram"><strong class="zz">Playlists made easy.
+            </strong>
+            <br>
+            We'll Help you make Playlists
+            <br>
+            Enjoy playlists by experts
+        </p>
+        <p id="rap"><strong id="oop">Make it yours.</strong>
+            <br>
+            Tell us what you like, and we'll
+            <br>
+            recommend music for you.
+        </p>
+        <p id="pop"><strong id="lop">Save mobile data.
+            </strong>
+            <br>
+            Use less data when you play music,
+            <br>
+            Turn on Data Saver in Settings.
+        </p>
+
+    </header1>
+    <header2>
+        <p id="roop"><strong id="roo">It's free.</strong>
+            <br>
+            <strong>No credit card required.</strong>
+        </p>
+    </header2>
+    <header3>
+        <div class="container">
+
+            <h2><strong>GOT QUESTIONS?</strong></h2>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <a>How Do I create Playlist?</a>
+                    <div class="content">
+
+
+                        <p>Playlists are a great way to save collections of music, either for your own listening or to
+                            share.
+                            <br>
+                            To create one:
+                            <br>
+                            1.Tap Your Library.
+                            <br>
+                            2.Tap CREATE.
+                            <br>
+                            3.Give your playlist a name.
+                            <br>
+                            4.Start adding songs (and we’ll help you along).
+                        </p>
+
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <a>How How Do I activate Data saver Mode?</a>
+                    <div class="content">
+                        <p> 1.Tap Home.
+                            <br>
+                            2.Tap Settings.
+                            <br>
+                            3.Tap Data Saver.
+                            <br>
+                            4.Switch on Data Saver.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <a>Is It only possible to shuffle Playlist?</a>
+                    <div class="content">
+                        <p>Any playlist with the shuffle icon will play on shuffle.
+                            <br>
+
+                            Some playlists won't have the shuffle icon, so you can tap any song to play it.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <a>Is Where can i find Podcast?</a>
+                    <div class="content">
+                        <p>Tap Search . Under Browse All, tap Podcasts.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+        <script>
+            // Code By Webdevtrick ( https://webdevtrick.com )
+            const items = document.querySelectorAll(".accordion a");
+
+            function toggleAccordion() {
+                this.classList.toggle('active');
+                this.nextElementSibling.classList.toggle('active');
+            }
+
+            items.forEach(item => item.addEventListener('click', toggleAccordion));
+        </script>
+
+        <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+        <script src="function.js"></script>
+
+    </header3>
+    <header4>
+        <p id="heap"><strong id="woop">Ready? Let’s play.
+            </strong></p>
+        <h1 class="aa"><a class="oo" href="https://www.spotify.com/in-en/signup/" target="_blank">GET SPOTIFY FREE</a>
+        </h1>
+    </header4>
+    <header5>
+        <div id="go">
+            <img src="logo.png" alt="">
+        </div>
+        <dl id="flip">
+            <dt id="push"> COMPANY</dt>
+            <dd class="pap"><a href="https://www.spotify.com/in-en/about-us/contact/" target="_blank">About</a></dd>
+            <dd class="pap"><a
+                    href="https://www.spotifyjobs.com/?_gl=1*ph3rnw*_gcl_aw*R0NMLjE2MjY3NzI5NjUuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.*_gcl_dc*R0NMLjE2MjY3NzI5NjUuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.&_ga=2.104603328.1175773860.1626517253-2010642392.1626517253&_gac=1.219683307.1626772965.Cj0KCQjw6NmHBhD2ARIsAI3hrM33qlaSkmkzIqePQg1QL1plmwdgK457EI9wnCCBAZf1cY_d4EBl8-kaAmdrEALw_wcB"
+                    target="_blank">Jobs</a></dd>
+            <dd class="pap"><a
+                    href="https://newsroom.spotify.com/?_gl=1*zhmja2*_gcl_aw*R0NMLjE2MjY3NzM1MDEuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.*_gcl_dc*R0NMLjE2MjY3NzM1MDEuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.&_ga=2.145913204.1175773860.1626517253-2010642392.1626517253&_gac=1.116184180.1626773502.Cj0KCQjw6NmHBhD2ARIsAI3hrM33qlaSkmkzIqePQg1QL1plmwdgK457EI9wnCCBAZf1cY_d4EBl8-kaAmdrEALw_wcB"
+                    target="_blank">For The Record</a></dd>
+        </dl>
+        <dl id="lip">
+            <dt id="push"> COMMUNITIES</dt>
+            <dd class="pap"><a href="https://artists.spotify.com/?_gl=1*15hez6w*_gcl_aw*R0NMLjE2MjY3NzM1MDEuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.*_gcl_dc*R0NMLjE2MjY3NzM1MDEuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.&_ga=2.105525699.1175773860.1626517253-2010642392.1626517253&_gac=1.148361541.1626773502.Cj0KCQjw6NmHBhD2ARIsAI3hrM33qlaSkmkzIqePQg1QL1plmwdgK457EI9wnCCBAZf1cY_d4EBl8-kaAmdrEALw_wcB" target="_blank">For Artists</a></dd>
+            <dd class="pap"><a
+                    href="https://developer.spotify.com/?_gl=1*lehwk3*_gcl_aw*R0NMLjE2MjY3NzM1MDEuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.*_gcl_dc*R0NMLjE2MjY3NzM1MDEuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.&_ga=2.76182869.1175773860.1626517253-2010642392.1626517253&_gac=1.12401734.1626773502.Cj0KCQjw6NmHBhD2ARIsAI3hrM33qlaSkmkzIqePQg1QL1plmwdgK457EI9wnCCBAZf1cY_d4EBl8-kaAmdrEALw_wcB"
+                    target="_blank">Developers</a></dd>
+            <dd class="pap"><a
+                    href="https://developer.spotify.com/?_gl=1*lehwk3*_gcl_aw*R0NMLjE2MjY3NzM1MDEuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.*_gcl_dc*R0NMLjE2MjY3NzM1MDEuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.&_ga=2.76182869.1175773860.1626517253-2010642392.1626517253&_gac=1.12401734.1626773502.Cj0KCQjw6NmHBhD2ARIsAI3hrM33qlaSkmkzIqePQg1QL1plmwdgK457EI9wnCCBAZf1cY_d4EBl8-kaAmdrEALw_wcB"
+                    target="_blank">Advertising</a></dd>
+            <dd class="pap"><a
+                    href="https://investors.spotify.com/?_gl=1*1clc0vg*_gcl_aw*R0NMLjE2MjY3NzM1MDEuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.*_gcl_dc*R0NMLjE2MjY3NzM1MDEuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.&_ga=2.205600083.1175773860.1626517253-2010642392.1626517253&_gac=1.223738345.1626773502.Cj0KCQjw6NmHBhD2ARIsAI3hrM33qlaSkmkzIqePQg1QL1plmwdgK457EI9wnCCBAZf1cY_d4EBl8-kaAmdrEALw_wcB"
+                    target="_blank">Investors</a></dd>
+            <dd class="pap"><a
+                    href="https://spotifyforvendors.com/"
+                    target="_blank">Vendors</a></dd>
+        </dl>
+        <dl id="jeep">
+            <dt id="push"> USEFUL LINKS</dt>
+            <dd class="pap"><a href="https://support.spotify.com/?_gl=1*ca2i12*_gcl_aw*R0NMLjE2MjY3NzM1MDEuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.*_gcl_dc*R0NMLjE2MjY3NzM1MDEuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.&_ga=2.139096435.1175773860.1626517253-2010642392.1626517253&_gac=1.150794564.1626773502.Cj0KCQjw6NmHBhD2ARIsAI3hrM33qlaSkmkzIqePQg1QL1plmwdgK457EI9wnCCBAZf1cY_d4EBl8-kaAmdrEALw_wcB" target="_blank">Support</a></dd>
+            <dd class="pap"><a
+                    href="https://open.spotify.com/?_gl=1*1m1ssg6*_gcl_aw*R0NMLjE2MjY3NzM1MDEuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.*_gcl_dc*R0NMLjE2MjY3NzM1MDEuQ2owS0NRanc2Tm1IQmhEMkFSSXNBSTNock0zM3FsYVNrbWt6SXFlUFFnMVFMMXBsbXdkZ0s0NTdFSTl3bkNDQkFaZjFjWV9kNEVCbDgta2FBbWRyRUFMd193Y0I.&_ga=2.79925591.1175773860.1626517253-2010642392.1626517253&_gac=1.182916692.1626773502.Cj0KCQjw6NmHBhD2ARIsAI3hrM33qlaSkmkzIqePQg1QL1plmwdgK457EI9wnCCBAZf1cY_d4EBl8-kaAmdrEALw_wcB"
+                    target="_blank">Web Player</a></dd>
+            <dd class="pap"><a
+                    href="https://www.spotify.com/in-en/free/"
+                    target="_blank">Free Mobile App</a></dd>
+        </dl>
+        <div>
+
+        </div>
+    </header5>
+</body>
+
+</html>
